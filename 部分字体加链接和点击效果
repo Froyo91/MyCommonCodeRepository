@@ -1,0 +1,13 @@
+        int start = 37;
+        int end = 52;
+        CharSequence str= top_tips.getText();
+        SpannableString spannableString1 = new SpannableString(str);
+        spannableString1.setSpan(new ClickableSpan(){
+            @Override
+            public void onClick(View widget) {
+                start();
+            }
+        }, start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableString1.setSpan(new ForegroundColorSpan(Color.BLUE), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        top_tips.setText(spannableString1);
+        top_tips.setMovementMethod(LinkMovementMethod.getInstance());
