@@ -1,3 +1,4 @@
+        top_tips.setHighlightColor(getResources().getColor(android.R.color.transparent));//添加这句之后 不存在点击之后背景颜色改变
         int start = 37;
         int end = 52;
         CharSequence str= top_tips.getText();
