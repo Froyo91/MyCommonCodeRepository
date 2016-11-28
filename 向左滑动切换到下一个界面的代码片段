@@ -1,5 +1,5 @@
 // Android welcone activity : slide left to turn to next activity in the last page of the viewpager
-// 在使用viewpager的引导页的最后一页上，向左滑动切换到下一个界面的收拾代码片段
+// 在使用viewpager的引导页的最后一页上，向左滑动切换到下一个界面的手势代码片段
 
 private GestureDetector mygesture;
 private static final int FLING_MIN_DISTANCE = 180;
