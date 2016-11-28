@@ -1,0 +1,43 @@
+1.这个功能直接调用系统的视频播放器，问题是可能需要在第一次选择使用哪个播放器来播放          
+            Intent openVideo = new Intent(Intent.ACTION_VIEW);
+            openVideo.setDataAndType(Uri.parse(url), "video/*");
+            startActivity(openVideo);
+            
+2.推荐：
+java：
+public class VideoActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_video);
+
+        Uri uri = Uri.parse(getIntent().getStringExtra("url"));
+        VideoView videoView = (VideoView)findViewById(R.id.video_view);
+        videoView.setMediaController(new MediaController(this));
+        videoView.setVideoURI(uri);
+        videoView.start();
+        videoView.requestFocus();
+    }
+}
+
+
+xml:
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.app.activity.set.VideoActivity">
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>
+
+Androidmanifest：
+<activity android:name=".activity.set.VideoActivity"
+            android:screenOrientation="landscape"
+            ></activity>
