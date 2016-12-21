@@ -9,3 +9,4 @@ save my usual codes
 
 ###3.简单的视频播放功能：https://github.com/Froyo91/MyCodeRepo/blob/master/%E7%AE%80%E5%8D%95%E7%9A%84%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%8A%9F%E8%83%BD
 
+###4.viewpager循环滑动：https://github.com/Froyo91/MyCommonCodeRepository/blob/master/viewpager%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE
