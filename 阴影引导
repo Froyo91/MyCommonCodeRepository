@@ -1,0 +1,12 @@
+View decorView = getActivity().getWindow().getDecorView();
+final FrameLayout contentParent = (FrameLayout) decorView.findViewById(android.R.id.content);
+
+final View view = View.inflate(getContext(), R.layout.lead1_layout, null);//导入我们阴影view
+contentParent.addView(view);
+
+view.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        contentParent.removeView(view);//点击屏幕之后阴影消失
+    }
+});
