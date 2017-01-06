@@ -15,3 +15,49 @@
 
 （2）部分字体颜色变化（并没有添加额外的点击事件），单纯变化颜色的话，这种方式更好，简便
 viewHolder.descp.setText(Html.fromHtml("<font color='#499DF2'>" + getDatas().get(position).getContent().substring(0, getDatas().get(position).getContent().length() - 7) + "</font>关注了本套房子"));
+（3）多段文字变色，以及没有下划线：
+private void setExpainClickEvent(){
+        explain.setHighlightColor(getResources().getColor(android.R.color.transparent));
+        int start = 119;
+        int end = 139;
+        CharSequence str= explain.getText();
+
+        SpannableString spannableString1 = new SpannableString(str);
+        spannableString1.setSpan(new NoUnderline(){
+            @Override
+            public void onClick(View widget) {
+                
+            }
+        }, start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableString1.setSpan(new ForegroundColorSpan(Color.BLUE), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        int start1 = 160;
+        int end1 = 173;
+        spannableString1.setSpan(new NoUnderline(){
+            @Override
+            public void onClick(View widget) {
+
+            }
+        }, start1, end1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannableString1.setSpan(new ForegroundColorSpan(Color.BLUE), start1, end1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        explain.setText(spannableString1);
+
+        explain.setMovementMethod(LinkMovementMethod.getInstance());
+    }
+
+    private class NoUnderline extends ClickableSpan {
+        public NoUnderline() {
+            super();
+        }
+
+        @Override
+        public void updateDrawState(TextPaint ds) {
+            super.updateDrawState(ds);
+            ds.setUnderlineText(false);
+        }
+
+        @Override
+        public void onClick(View widget) {
+
+        }
+    }
