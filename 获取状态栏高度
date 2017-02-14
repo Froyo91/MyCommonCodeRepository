@@ -1,0 +1,20 @@
+Rect frame = new Rect();
+getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
+int statusBarHeight = frame.top;
+
+
+
+
+
+一般如下使用：
+navigateBar.post(new Runnable() {
+    @Override
+    public void run() {
+        Rect frame = new Rect();
+        getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
+        int statusBarHeight = frame.top;
+        final LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) navigateBar.getLayoutParams();
+        lp.setMargins(0, statusBarHeight, 0, 0);
+        navigateBar.setLayoutParams(lp);
+    }
+});
