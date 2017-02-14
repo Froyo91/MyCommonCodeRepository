@@ -12,3 +12,6 @@ save my usual codes
 ###4.viewpager循环滑动：https://github.com/Froyo91/MyCommonCodeRepository/blob/master/viewpager%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE
 
 ###5.Android阴影引导： https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E9%98%B4%E5%BD%B1%E5%BC%95%E5%AF%BC
+
+###6.获取状态栏高度：https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6
+
