@@ -15,3 +15,10 @@ save my usual codes
 
 ###6.获取状态栏高度：https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6
 
+
+
+
+
+
+
+ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
