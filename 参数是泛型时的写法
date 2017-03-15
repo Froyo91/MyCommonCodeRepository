@@ -1,0 +1,3 @@
+public static <T extends View> Observable getClickObservable(T a){
+        return RxView.clicks(a).throttleFirst(1, TimeUnit.SECONDS);
+}
