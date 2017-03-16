@@ -18,10 +18,7 @@ save my usual codes
 ###7.参数是泛型时的写法
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E5%8F%82%E6%95%B0%E6%98%AF%E6%B3%9B%E5%9E%8B%E6%97%B6%E7%9A%84%E5%86%99%E6%B3%95
 
-
-
-
-
-
+###8.rx adapterview.itemclick lambda 带参数的写法
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/rx%20adapterview.itemclick%20lambda%20%E5%B8%A6%E5%8F%82%E6%95%B0%E7%9A%84%E5%86%99%E6%B3%95
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
