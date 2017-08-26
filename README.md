@@ -15,10 +15,13 @@ save my usual codes
 
 ###6.获取状态栏高度：https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6
 
-###7.参数是泛型时的写法
+###7.参数是泛型时的写法：
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E5%8F%82%E6%95%B0%E6%98%AF%E6%B3%9B%E5%9E%8B%E6%97%B6%E7%9A%84%E5%86%99%E6%B3%95
 
-###8.rx adapterview.itemclick lambda 带参数的写法
+###8.rx adapterview.itemclick lambda 带参数的写法：
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/rx%20adapterview.itemclick%20lambda%20%E5%B8%A6%E5%8F%82%E6%95%B0%E7%9A%84%E5%86%99%E6%B3%95
+
+###9.正方形View：
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E6%AD%A3%E6%96%B9%E5%BD%A2%E7%9A%84View
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
