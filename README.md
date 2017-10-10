@@ -27,4 +27,7 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E6%AD%A3%E6%96%B9
 ### 10.给edittext设置图片，登录注册用的会比较多一些
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E7%BB%99edittext%E8%AE%BE%E7%BD%AE%E5%9B%BE%E7%89%87%EF%BC%8C%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E7%94%A8%E7%9A%84%E4%BC%9A%E6%AF%94%E8%BE%83%E5%A4%9A%E4%B8%80%E4%BA%9B
 
+### 11.fragment中使用返回键
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/fragment%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%BF%94%E5%9B%9E%E9%94%AE
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
