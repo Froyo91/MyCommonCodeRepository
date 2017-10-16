@@ -30,4 +30,7 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E7%BB%99edittext%
 ### 11.fragment中使用返回键
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/fragment%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%BF%94%E5%9B%9E%E9%94%AE
 
+### 12.网络指令
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E7%BD%91%E7%BB%9C%E6%8C%87%E4%BB%A4
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
