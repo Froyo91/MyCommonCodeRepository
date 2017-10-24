@@ -36,4 +36,7 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E7%BD%91%E7%BB%9C
 ### 13.set textsize programmatically
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/set%20textsize%20programmatically
 
+### 14.Android中反复平移一张图片
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/Android%E4%B8%AD%E5%8F%8D%E5%A4%8D%E5%B9%B3%E7%A7%BB%E4%B8%80%E5%BC%A0%E5%9B%BE%E7%89%87
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
