@@ -33,4 +33,7 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/fragment%E4%B8%AD%
 ### 12.网络指令
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E7%BD%91%E7%BB%9C%E6%8C%87%E4%BB%A4
 
+### 13.set textsize programmatically
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/set%20textsize%20programmatically
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
