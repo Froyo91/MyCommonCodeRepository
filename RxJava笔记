@@ -8,6 +8,7 @@ Observable 和 Observer 通过 subscribe() 方法实现订阅关系，从而 Obs
 
 subscribeOn(): 指定 subscribe() 所发生的线程，即 Observable.OnSubscribe 被激活时所处的线程。或者叫做事件产生的线程。 * observeOn(): 指定 Subscriber 所运行在的线程。或者叫做事件消费的线程。
 
+AsyncTask可以用RxJava的写法来代替
 new AsyncTask<String, Void, Bitmap>(){
             @Override
             protected Bitmap doInBackground(String... strings) {
