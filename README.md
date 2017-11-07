@@ -62,3 +62,7 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/Android%E4%B8%AD%E
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/RxJava%E7%AC%94%E8%AE%B0
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
+
+http://blog.csdn.net/theone10211024/article/details/50435325
+
+http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html
