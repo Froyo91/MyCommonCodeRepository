@@ -7,3 +7,70 @@ RxJava 有四个基本概念：Observable (可观察者，即被观察者)、 Ob
 Observable 和 Observer 通过 subscribe() 方法实现订阅关系，从而 Observable 可以在需要的时候发出事件来通知 Observer。
 
 subscribeOn(): 指定 subscribe() 所发生的线程，即 Observable.OnSubscribe 被激活时所处的线程。或者叫做事件产生的线程。 * observeOn(): 指定 Subscriber 所运行在的线程。或者叫做事件消费的线程。
+
+new AsyncTask<String, Void, Bitmap>(){
+            @Override
+            protected Bitmap doInBackground(String... strings) {
+                try {
+                    URL url = new URL(strings[0]);
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    InputStream is = conn.getInputStream();
+                    return BitmapFactory.decodeStream(is);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+
+            @Override
+            protected void onPostExecute(Bitmap bitmap) {
+                for(int i = 0; i < getCountryResponse.getList().size(); i++){
+                    getCountryResponse.getList().get(i).setBitmap(Bitmap.createBitmap(bitmap, -Integer.parseInt(getCountryResponse.getList().get(i).getPosition()), 0, getCountryResponse.getList().get(i).getWidth(), 15));
+                }
+                myAdapter = new E164Adapter(getApplicationContext(), getCountryResponse);
+                listview.setAdapter(myAdapter);
+            }
+        }.execute(getCountryResponse.getImage());
+        
+        
+        
+ Rx写法：
+ Observable.fromCallable(new Callable<Bitmap>() {
+            @Override
+            public Bitmap call() throws Exception {
+                try {
+                    URL url = new URL(getCountryResponse.getImage());
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    InputStream is = conn.getInputStream();
+                    return BitmapFactory.decodeStream(is);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Observer<Bitmap>() {
+                    @Override
+                    public void onSubscribe(Disposable d) {
+
+                    }
+
+                    @Override
+                    public void onNext(Bitmap bitmap) {
+                        for(int i = 0; i < getCountryResponse.getList().size(); i++){
+                            getCountryResponse.getList().get(i).setBitmap(Bitmap.createBitmap(bitmap, -Integer.parseInt(getCountryResponse.getList().get(i).getPosition()), 0, getCountryResponse.getList().get(i).getWidth(), 15));
+                        }
+                        myAdapter = new E164Adapter(getApplicationContext(), getCountryResponse);
+                        listview.setAdapter(myAdapter);
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+                });
