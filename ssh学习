@@ -7,4 +7,8 @@ y = yes
 n = no
 d = download only (只下载不安装)
 
+apt-get install git 不行的话，试试yum install git
+
 http://blog.51cto.com/liguxk/152912
+
+http://www.jianshu.com/p/ee058d067fd9
