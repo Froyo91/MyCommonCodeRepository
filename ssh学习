@@ -9,6 +9,12 @@ d = download only (只下载不安装)
 
 apt-get install git 不行的话，试试yum install git
 
+安装java 1.8：yum install java-1.8.0-openjdk
+
 http://blog.51cto.com/liguxk/152912
 
 http://www.jianshu.com/p/ee058d067fd9
+
+http://openjdk.java.net/install/
+
+
