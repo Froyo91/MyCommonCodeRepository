@@ -12,6 +12,9 @@ apt-get install git 不行的话，试试yum install git
 
 安装java 1.8：yum install java-1.8.0-openjdk
 
+gradle:
+./gradlew build
+
 http://blog.51cto.com/liguxk/152912
 
 http://www.jianshu.com/p/ee058d067fd9
