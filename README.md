@@ -69,6 +69,10 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/ssh%E5%AD%A6%E4%B9
 
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/ListView%20%E8%8E%B7%E5%8F%96%E7%B2%BE%E7%A1%AE%E6%BB%9A%E5%8A%A8%E5%80%BC
 
+### 18.银行卡匹配信息（Java代码） 
+
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/bankinfo.java
+
 
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
