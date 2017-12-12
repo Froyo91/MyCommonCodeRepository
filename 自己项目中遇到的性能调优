@@ -1,1 +1,7 @@
-
+1.在BaseActivity中添加：getWindow().setBackgroundDrawable(null);
+2.使用leakcanary
+3.profile app: http://www.jianshu.com/p/216b03c22bb8（如我项目里的WelcomeActivity的调优）
+4.StringBuilder和StringBuffer而不是String
+5.Rxjava句柄的释放
+6.Runnable句柄的释放
+7.使用静态内部类
