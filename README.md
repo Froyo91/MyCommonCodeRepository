@@ -73,6 +73,9 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/ListView%20%E8%8E%
 
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/bankinfo.java
 
+### 19.自己项目中遇到的性能调优
+
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%87%AA%E5%B7%B1%E9%A1%B9%E7%9B%AE%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98
 
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
