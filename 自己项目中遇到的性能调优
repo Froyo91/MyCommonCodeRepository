@@ -5,4 +5,4 @@
 5.Rxjava句柄的释放
 6.Runnable句柄的释放
 7.使用静态内部类
-8.使用工具压缩图片：（1）ImageOptim （2）png到webp
+8.使用工具压缩图片：（1）ImageOptim （2）用Android Studio转：png到webp
