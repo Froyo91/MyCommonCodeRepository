@@ -77,6 +77,10 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/bankinfo.java
 
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%87%AA%E5%B7%B1%E9%A1%B9%E7%9B%AE%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98
 
+### 20.发语音屏蔽背景音乐
+
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E5%8F%91%E8%AF%AD%E9%9F%B3%E5%B1%8F%E8%94%BD%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90
+
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
