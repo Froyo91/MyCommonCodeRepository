@@ -1,0 +1,19 @@
+/**@param bMute 值为true时为关闭背景音乐。*/
+    @TargetApi(Build.VERSION_CODES.FROYO)
+    public static boolean muteAudioFocus(Context context, boolean bMute) {
+        if(context == null){
+            Log.d("ANDROID_LAB", "context is null.");
+            return false;
+        }
+        boolean bool;
+        AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        if(bMute){
+            int result = am.requestAudioFocus(null,AudioManager.STREAM_MUSIC,AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+            bool = result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED;
+        }else{
+            int result = am.abandonAudioFocus(null);
+            bool = result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED;
+        }
+        Log.d("ANDROID_LAB", "pauseMusic bMute="+bMute +" result="+bool);
+        return bool;
+    }
