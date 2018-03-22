@@ -81,6 +81,10 @@ https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E8%87%AA%E5%B7%B1
 
 https://github.com/Froyo91/MyCommonCodeRepository/blob/master/%E5%8F%91%E8%AF%AD%E9%9F%B3%E5%B1%8F%E8%94%BD%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90
 
+### 21.Monkey脚本命令
+
+https://github.com/Froyo91/MyCommonCodeRepository/blob/master/Monkey%E8%84%9A%E6%9C%AC%E5%91%BD%E4%BB%A4
+
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
