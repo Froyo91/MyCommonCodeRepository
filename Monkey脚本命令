@@ -1,0 +1,1 @@
+adb shell monkey -v -p com.lottery.ruok.lottrey --pct-touch 100 --throttle 500 1000000
