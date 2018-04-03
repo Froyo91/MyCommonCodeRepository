@@ -1,1 +1,8 @@
+1.放在http://localhost/info.php也就是xampp根目录下
+
+<?php
+    echo phpinfo();
+?>
+
+从xampp自带的httpd.conf找到DocumentRoot属性，并且找到配置的根目录
 
