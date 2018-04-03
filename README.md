@@ -91,3 +91,5 @@ ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintra
 http://blog.csdn.net/theone10211024/article/details/50435325
 
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html
+
+http://localhost/phpmyadmin   打开本地phpmyadmin 
