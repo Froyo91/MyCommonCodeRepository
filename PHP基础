@@ -6,3 +6,7 @@
 
 从xampp自带的httpd.conf找到DocumentRoot属性，并且找到配置的根目录
 
+2.windows下安装memcached（memcached.exe -d install），报错：Failed to ignore SIGHUP: No error
+以管理员运行cmd，执行以下命令：
+sc create "Memcached11211" binPath= "D:\memcached-amd64\memcached.exe -d runservice -p 11211" DisplayName= "Memcached11211" start= auto
+
