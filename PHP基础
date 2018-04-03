@@ -10,3 +10,5 @@
 以管理员运行cmd，执行以下命令：
 sc create "Memcached11211" binPath= "D:\memcached-amd64\memcached.exe -d runservice -p 11211" DisplayName= "Memcached11211" start= auto
 
+3.phpstorm
+ctrl+alt+left/right 浏览位置上一个和下一个
