@@ -12,3 +12,6 @@ sc create "Memcached11211" binPath= "D:\memcached-amd64\memcached.exe -d runserv
 
 3.phpstorm
 ctrl+alt+left/right 浏览位置上一个和下一个
+
+4.写api的时候参数校验至关重要
+
