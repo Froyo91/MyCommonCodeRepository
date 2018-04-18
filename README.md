@@ -49,6 +49,8 @@ save my usual codes
 
 ### [0023.实用Git命令](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0023.%E5%AE%9E%E7%94%A8Git%E5%91%BD%E4%BB%A4.md)
 
+### [0024.okhttp和https](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0024.Okhttp%E8%AF%B7%E6%B1%82https%E6%8E%A5%E5%8F%A3%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3.md)
+
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
