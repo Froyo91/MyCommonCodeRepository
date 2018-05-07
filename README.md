@@ -53,6 +53,8 @@ save my usual codes
 
 ### [0025.linux指令](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0025.linux%E6%8C%87%E4%BB%A4.md)
 
+### [0026.mac实用用法](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0026.mac%E5%AE%9E%E7%94%A8%E7%94%A8%E6%B3%95.md)
+
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
