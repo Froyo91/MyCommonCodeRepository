@@ -55,6 +55,9 @@ save my usual codes
 
 ### [0026.mac实用用法](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0026.mac%E5%AE%9E%E7%94%A8%E7%94%A8%E6%B3%95.md)
 
+### [0027.Android Studio快捷键](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0027.Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
+
+
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
