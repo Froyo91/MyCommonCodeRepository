@@ -61,7 +61,7 @@ save my usual codes
 
 ### [0029.常用软件的一些破解](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0029.%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E7%A0%B4%E8%A7%A3.md)
 
-
+### [0030.vim笔记](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0030.vim%E7%AC%94%E8%AE%B0.md)
 
 
 
