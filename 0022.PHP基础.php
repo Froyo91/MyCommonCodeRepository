@@ -45,3 +45,4 @@ $big_sql = 'select a.id,a.item_code,a.order_no,a.period_no,b.pick_number,b.prize
 https://www.cnblogs.com/geaozhang/p/6753190.html
 关于数据库的连表查询 
 
+12.安装php7.2  https://newsn.net/say/centos-php72-yum.html
