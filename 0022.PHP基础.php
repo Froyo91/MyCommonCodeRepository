@@ -52,3 +52,10 @@ https://www.cnblogs.com/geaozhang/p/6753190.html
 13.https://wiki.swoole.com/wiki/page/479.html
 swoole websocket服务器
 
+14.linux服务器配置：（php开发）
+https://www.cnblogs.com/liaojie970/p/6253404.html
+
+https://blog.csdn.net/u011323949/article/details/73379146 （nginx）
+
+https://blog.csdn.net/hu_zhe_kan/article/details/79368169   （安装php 7.2）
+
