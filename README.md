@@ -63,7 +63,7 @@ save my usual codes
 
 ### [0030.vim笔记](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0030.vim%E7%AC%94%E8%AE%B0.md)
 
-
+### [0031.网上视频例子](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0031.%E7%BD%91%E4%B8%8A%E8%A7%86%E9%A2%91%E4%BE%8B%E5%AD%90.md)
 
 
 
