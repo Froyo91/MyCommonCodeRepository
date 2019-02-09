@@ -77,3 +77,4 @@ http://localhost/phpmyadmin   打开本地phpmyadmin
 
 mstsc 连接windows远程服务器
 
+go env查看go环境变量配置
