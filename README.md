@@ -65,7 +65,7 @@ save my usual codes
 
 ### [0031.网上视频例子](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0031.%E7%BD%91%E4%B8%8A%E8%A7%86%E9%A2%91%E4%BE%8B%E5%AD%90.md)
 
-
+### [0032.对网络框架的二次封装](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0032.%E5%AF%B9%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85.md)
 
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
