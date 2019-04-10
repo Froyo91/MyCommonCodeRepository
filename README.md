@@ -69,6 +69,8 @@ save my usual codes
 
 ### [0033.翻墙](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0033.%E7%BF%BB%E5%A2%99.md)
 
+### [0034.vscode快捷键](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0034.vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
