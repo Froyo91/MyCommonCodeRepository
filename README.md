@@ -71,6 +71,8 @@ save my usual codes
 
 ### [0034.vscode快捷键](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0034.vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
+### [0035.sdk下载地址](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0035.sdk%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
