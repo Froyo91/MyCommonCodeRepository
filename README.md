@@ -75,6 +75,8 @@ save my usual codes
 
 ### [0036.python2中文乱码问题](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0036.python2%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98.md)
 
+### [0037.常见面试话术](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0037.%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E8%AF%9D%E6%9C%AF.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
