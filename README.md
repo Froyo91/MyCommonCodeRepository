@@ -77,6 +77,8 @@ save my usual codes
 
 ### [0037.常见面试话术](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0037.%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E8%AF%9D%E6%9C%AF.md)
 
+### [0038.jenkins](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0038.jenkins.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
