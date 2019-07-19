@@ -79,6 +79,10 @@ save my usual codes
 
 ### [0038.jenkins](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0038.jenkins.md)
 
+### [0039.工作中踩过的坑](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0039.%E5%B7%A5%E4%BD%9C%E4%B8%AD%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91.md)
+
+### [0040.Android新特性](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0040.Android%E6%96%B0%E7%89%B9%E6%80%A7.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
