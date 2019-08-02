@@ -83,6 +83,8 @@ save my usual codes
 
 ### [0040.Android新特性](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0040.Android%E6%96%B0%E7%89%B9%E6%80%A7.md)
 
+### [0041.Python](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0041.python.md)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
