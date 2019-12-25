@@ -89,6 +89,8 @@ save my usual codes
 
 ### [0043.JNI](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0043.JNI.md)
 
+### [0044.golang](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0044.golang.go)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
