@@ -59,3 +59,7 @@ https://blog.csdn.net/u011323949/article/details/73379146 （nginx）
 
 https://blog.csdn.net/hu_zhe_kan/article/details/79368169   （安装php 7.2）
 
+15.php Code Sniffer
+https://blog.csdn.net/qq_32737755/article/details/97528394
+https://docs.phpcomposer.com/00-intro.html
+https://www.jianshu.com/p/5b697ccf80fc
