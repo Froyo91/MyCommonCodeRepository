@@ -84,7 +84,6 @@ class UsersResource
 $xinbie = 1;//错误的格式，1在代码中不可读
 $gp = 20;//错误的格式，不能用无意义的简写，除了专业名称（goods price）
  
- 
 $prince='广东';//错误
 $city  ='深圳';//错误，不需要为了等号对齐，添加不必要的空格
  
@@ -108,11 +107,9 @@ $endDate = '2018-10-13';//结束日期，精确到天，格式为YYYY-MM-DD
 $startTime = '2018-10-12 12:14';//开始日期，精确到天，格式为YYYY-MM-DD HH:MM
 $endTime = '2018-10-12 21:00';//开始日期，精确到天，格式为YYYY-MM-DD HH:MM
  
- 
 //count，和amount，次数和数量类型 $*Count, $*Amount
 $loginCount = 10;
 $depositAmount = 100.00;
- 
  
 //min, 和max, 最小/低 最大/高，类型$min*, $max*
 $mixPrice = 0.00;//最低价格
