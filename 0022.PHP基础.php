@@ -59,7 +59,90 @@ https://blog.csdn.net/u011323949/article/details/73379146 （nginx）
 
 https://blog.csdn.net/hu_zhe_kan/article/details/79368169   （安装php 7.2）
 
-15.php Code Sniffer
+15.php Code Sniffer 与 php代码规范
 https://blog.csdn.net/qq_32737755/article/details/97528394
 https://docs.phpcomposer.com/00-intro.html
 https://www.jianshu.com/p/5b697ccf80fc
+
+//命名规范
+//目录名称首字母大写，复数形式，多个单词以大写分割，如：/Models,/Controllers,/Services,/RedisQueues
+ 
+//文件名称，以大写开头，资源集合类以复数形式，多个单词已大写分割，如：UsersResource.php, UsersService.php, UsersRepostiroy.php,
+//对象实体类以单数形式，如：UserModel.php
+ 
+//命名空间名称和文件名称一致，已大写字母开头，如：
+App/Http/Resources
+ 
+//类，一个文件一个类，类名应该与文件名称一致，如：UsersResource.php
+class UsersResource
+{
+}
+ 
+//变量名称以小写字母开头，单词已大写分割，变量名称禁止用 “中文拼音” 表示，禁止使用无意义的“简写”，如：$xinbie, $gp(goods Price),
+//运算符前后需要一个空格隔开
+//性别
+$xinbie = 1;//错误的格式，1在代码中不可读
+$gp = 20;//错误的格式，不能用无意义的简写，除了专业名称（goods price）
+ 
+ 
+$prince='广东';//错误
+$city  ='深圳';//错误，不需要为了等号对齐，添加不必要的空格
+ 
+$gender = 'male';//正确
+$goodsPrice = 20;//正确
+$jwt = new JWT();//正确，json web token，专有名称
+ 
+$province = '广东';//正确，赋值运算符前后以一个空格分割
+$city = '深圳';//正确
+
+//常用的命名格式
+//分页
+$total = 100;//总数据条数
+$page = 1;//分页，页码，默认1
+$pageSize = 18;//每页条数，默认18
+ 
+//日期，时间
+$startDate = '2018-10-12';//开始日期，精确到天，格式为YYYY-MM-DD
+$endDate = '2018-10-13';//结束日期，精确到天，格式为YYYY-MM-DD
+ 
+$startTime = '2018-10-12 12:14';//开始日期，精确到天，格式为YYYY-MM-DD HH:MM
+$endTime = '2018-10-12 21:00';//开始日期，精确到天，格式为YYYY-MM-DD HH:MM
+ 
+ 
+//count，和amount，次数和数量类型 $*Count, $*Amount
+$loginCount = 10;
+$depositAmount = 100.00;
+ 
+ 
+//min, 和max, 最小/低 最大/高，类型$min*, $max*
+$mixPrice = 0.00;//最低价格
+$maxPrice = 100.00;//最高价格
+ 
+//bool类型变量 $is*
+//true ,false, null 小写，不能大写，如：
+$isExist = false;
+$isRemember = true;
+$user = null;
+
+//异常处理
+//方法的返回值，除了true，false，null，需要的数据外，不能放回其他数据
+//方法的返回值类型不能超过2种，如:
+function myFuntion($option)
+{  
+    if (!$option) {
+        return false;
+    }
+     
+    if ($option == 'list') {
+        return -1;//错误，和其他返回状态不统一
+    }
+    return true;
+}
+//一个方法里如果有多种异常情况，应该用异常类去处理，比如常用的HTTP请求
+try {
+    request('http://example.com');
+} catch(HttpConnectException $e) {//连接不上异常
+     
+} catch(HttpRequestTimeoutException $e) {//超时异常
+     
+} //更多
