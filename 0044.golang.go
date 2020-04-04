@@ -261,3 +261,6 @@ startDate	开始日期，精确到天，格式YYYY-MM-DD ，如2018-10-11
 endDate	结束日期，精确到天，格式YYYY-MM-DD ，如2018-10-12
 startTime	开始时间，精确到分，格式YYYY-MM-DD HH:MM ，如2018-10-11 15:45
 endTime	结束时间，精确到分，格式YYYY-MM-DD HH:MM ，如2018-10-11 18:45
+
+6.下载依赖库
+执行 go mod tidy
