@@ -264,3 +264,24 @@ endTime	结束时间，精确到分，格式YYYY-MM-DD HH:MM ，如2018-10-11 18
 
 6.下载依赖库
 执行 go mod tidy
+
+7.json字符串转map（参考）
+//对json数据进行处理，把不符合当前游戏类型的游戏都剔除
+	jsonData := out.(map[string]interface{})
+	for k, v := range jsonData {
+		temp := v.([]interface{})
+		if len(temp) > 0 {
+			seq := make([]interface{}, 0)
+			for _, v1 := range temp {
+				temp2 := v1.(map[string]interface{})
+				if temp2["game_type"] == gameType {
+					seq = append(seq, temp2)
+				}
+			}
+			if len(seq) > 0 {
+				jsonData[k] = seq
+			} else {
+				delete(jsonData, k)
+			}
+		}
+	}
