@@ -143,3 +143,6 @@ try {
 } catch(HttpRequestTimeoutException $e) {//超时异常
      
 } //更多
+
+16.phpMyAdmin访问远程MySQL数据库的方法
+http://azraelgreen.ml/blog/2017/01/03/phpmyadmin-remote-access/
