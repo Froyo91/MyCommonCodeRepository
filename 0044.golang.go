@@ -285,3 +285,6 @@ endTime	结束时间，精确到分，格式YYYY-MM-DD HH:MM ，如2018-10-11 18
 			}
 		}
 	}
+
+8.go flag参数
+--game=./game_test.json --config=./config_test.json --gamename=./GameNameMap_test.json
