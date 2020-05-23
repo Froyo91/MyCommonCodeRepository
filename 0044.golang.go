@@ -288,3 +288,15 @@ endTime	结束时间，精确到分，格式YYYY-MM-DD HH:MM ，如2018-10-11 18
 
 8.go flag参数
 --game=./game_test.json --config=./config_test.json --gamename=./GameNameMap_test.json
+
+9.go循环删除元素
+chars := []string{"a", "a", "b"}
+
+for i := 0; i < len(chars); i++ {
+if chars[i] == "a" {
+chars = append(chars[:i], chars[i+1:]...)
+i-- // form the remove item index to start iterate next item
+}
+}
+
+fmt.Printf("%+v", chars)
