@@ -302,3 +302,5 @@ i-- // form the remove item index to start iterate next item
 fmt.Printf("%+v", chars)
 
 10.pprof web端访问404问题 https://studygolang.com/articles/13044
+
+11.要经常想想代码中会不会用到锁。
