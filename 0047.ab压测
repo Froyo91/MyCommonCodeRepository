@@ -5,3 +5,5 @@ ab  -H "client-type:web" -H "X-API-TOKEN:21398973933967062" -n 10000 -c 200 域�
 ab  -H "client-type:web" -H "X-API-TOKEN:21250893023950034" -n 1000 -c 100 -k  -p  域名
 
 https://www.cnblogs.com/yoyoketang/p/10255100.html
+
+go tool pprof -inuse_space  http://bobpprof.sstjx123.com/debug/pprof/allocs
