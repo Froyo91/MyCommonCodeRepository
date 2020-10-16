@@ -304,3 +304,15 @@ fmt.Printf("%+v", chars)
 10.pprof web端访问404问题 https://studygolang.com/articles/13044
 
 11.要经常想想代码中会不会用到锁。
+
+12.
+go module使用教程:使用go mod的方法.报错go: cannot determine module path for source directory E:\tttttt (outside
+使用go mod的方法
+
+单独从大工程里拷出小文件想新建新文件工程时，部分文件路径名报红，出现报错
+go: cannot determine module path for source directory E:\tttttt (outside GOPATH, no import comments)
+1.在src 目录下新建 go.mod文件
+2. go.mod中第一行加入一行内容 module src
+3.goland中 file->Settings->Go->Go Modules中勾上 Enable Go Modules(vgo) integration
+
+右键src目录，以goland工程打开，报红消失
