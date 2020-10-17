@@ -316,3 +316,5 @@ go: cannot determine module path for source directory E:\tttttt (outside GOPATH,
 3.goland中 file->Settings->Go->Go Modules中勾上 Enable Go Modules(vgo) integration
 
 右键src目录，以goland工程打开，报红消失
+
+13.注意gorm查找struct名对应数据库中的表名的时候会默认把你的struct中的大写字母转换为小写并加上“s”，所以可以加上 db.SingularTable(true) 让grom转义struct名字的时候不用加上s。
