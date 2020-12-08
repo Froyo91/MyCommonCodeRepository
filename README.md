@@ -97,6 +97,8 @@ save my usual codes
 
 ### [0047.ab压测](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0047.ab%E5%8E%8B%E6%B5%8B)
 
+### [0048.好的技术博客](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0048.%E5%A5%BD%E7%9A%84%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2)
+
 ps：glide 3.7.0 链接：https://repo.jfrog.org/artifactory/libs-release-bintray/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar?referrer
 
 http://blog.csdn.net/theone10211024/article/details/50435325
