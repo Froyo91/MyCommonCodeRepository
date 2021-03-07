@@ -97,7 +97,7 @@ save my usual codes
 
 ### [0047.ab压测](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0047.ab%E5%8E%8B%E6%B5%8B)
 
-### [0048.好的技术博客](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0048.%E5%A5%BD%E7%9A%84%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2)
+### [0048.好的技术博客](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0048.%E5%A5%BD%E7%9A%84%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2.md)
 
 ### [0049.技术书籍](https://github.com/Froyo91/MyCommonCodeRepository/blob/master/0049.%E6%8A%80%E6%9C%AF%E4%B9%A6%E7%B1%8D)
 
